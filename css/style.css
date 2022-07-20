@@ -1,53 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.claseUL{
+* {
+  margin: 0;
+  padding: 0; }
+
+.noticias img {
+  width: 20%; }
+
+.textonoticias {
+  font-size: 10px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.claseUL {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.claseLI {
+  list-style: none; }
+
+.titulo {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 1em; }
+
+.section1 {
+  color: white;
+  justify-content: center;
+  text-align: center; }
+
+.footer {
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 1em; }
+
+.container-xl {
+  font-family: serif;
+  margin: 30px;
+  color: #beb9b9;
+  text-shadow: 0px 0px 16px #FAFAD2; }
+
+body {
+  background-color: black; }
+
+.card-body {
+  background-color: grey; }
+
+.noticias img {
+  width: 20%;
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 35px; }
+
+.noticias h2 {
+  display: inline;
+  position: absolute;
+  vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 0px 0px 16px #FAFAD2;
+  font-weight: bolder; }
+
+.noticias p {
+  display: inline;
+  position: relative;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+.noticias {
+  text-align: center; }
+
+.bg-light {
+  background-color: grey !important; }
+
+section {
+  padding-top: 30px; }
+
+.contactoform {
+  font-weight: bolder;
+  color: white;
+  text-shadow: 0px 0px 16px #FAFAD2; }
+
+@media screen and (max-width: 360px) {
+  body {
+    background-color: #000000; }
+  .claseUL {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.claseLI{
-    list-style: none;
-}
-.titulo{
-    background-color: grey;
-    text-align: center;
-    font-family: sans-serif;
-    color: white;
-}
-.section1{
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
-.footer{
-    background-color: grey;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.container-xl{
-    font-family: serif;
-    margin: 60px;
-    color: gold;
-}
-body{
-    background-color: black;
-}
-.card-body{
-    background-color: grey;
-}
-@media screen and (max-width: 360px) {
-    body {
-      background-color: #000000; }
-    .claseUL{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 15rem;
-    }
-    .card-body{
-        display: flex;
-        flex-wrap: wrap;
-    }
-     }
+    max-width: 15rem; }
+  .card-body {
+    display: flex;
+    flex-wrap: wrap; } }
